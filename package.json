@@ -1,0 +1,14 @@
+{
+  "name": "wordle-pt-br",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Luis Pereira",
+  "license": "MIT",
+  "scripts": {
+      "start": "node ./server.js",
+      "start:dev" : "live-server ./public"
+  },
+  "dependencies": {
+    "node-static": "^0.7.11"
+  }
+}
