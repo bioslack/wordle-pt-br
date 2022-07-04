@@ -1,7 +1,6 @@
 {
   "name": "wordle-pt-br",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Luis Pereira",
   "license": "MIT",
   "source": "src/index.html",
