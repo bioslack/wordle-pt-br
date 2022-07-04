@@ -1,5 +1,4 @@
 import ptbr from "./wordlist-br";
-import { throttle, debounce } from "lodash";
 
 const wordlists = {
   ptbr,
