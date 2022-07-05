@@ -171,8 +171,8 @@ export class Wordle {
   constructor(wordlist) {
     this.matrix = [];
     this.wordlist = wordlist;
-    this.generateAnswer();
-    // this.answer = "acata";
+    // this.generateAnswer();
+    this.answer = "tênis";
   }
 
   generateAnswer() {
@@ -194,7 +194,9 @@ export class Wordle {
     return (
       this.matrix.length > 0 &&
       removeSpecialCharacters(this.answer) ===
-        this.matrix[this.matrix.length - 1].map((l) => l.letter).join("")
+        removeSpecialCharacters(
+          this.matrix[this.matrix.length - 1].map((l) => l.letter).join("")
+        )
     );
   }
 
@@ -228,6 +230,8 @@ export class Wordle {
     });
 
     this.matrix = [...this.matrix, line];
+
+    console.log(this.matrix);
 
     return true;
   }
