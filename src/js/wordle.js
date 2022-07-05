@@ -171,8 +171,8 @@ export class Wordle {
   constructor(wordlist) {
     this.matrix = [];
     this.wordlist = wordlist;
-    // this.generateAnswer();
-    this.answer = "tênis";
+    this.generateAnswer();
+    // this.answer = "tênis";
   }
 
   generateAnswer() {
