@@ -1,4 +1,4 @@
-import ptbr from "./wordlist-br";
+import ptbr from "./wordlist-br.js";
 
 const wordlists = {
   ptbr,

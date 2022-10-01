@@ -1,4 +1,4 @@
-import { Board } from "./js/wordle";
+import { Board } from "./js/wordle.js";
 
 const board = new Board("ptbr");
 
